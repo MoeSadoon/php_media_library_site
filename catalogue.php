@@ -1,13 +1,20 @@
 <?php
 $pageTitle = "Full Catalogue";
+$section = null;
 
 if(isset($_GET["cat"])){
   if($_GET["cat"] == "books"){
     $pageTitle = "Books";
+    $section = "books";
   } elseif($_GET["cat"] == "movies"){
     $pageTitle = "Movies";
+    $section = "movies";
   } elseif($_GET["cat"] == "music"){
     $pageTitle = "Music";
+    $section = "music";
+  } elseif($_GET["cat"] == "suggest"){
+    $pageTitle = "Suggest a media item";
+    $section = "suggest";
   }
 }
 

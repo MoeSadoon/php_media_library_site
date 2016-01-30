@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Suggest a media item";
+$section = "suggest";
 
 include("inc/header.php"); ?>
 
