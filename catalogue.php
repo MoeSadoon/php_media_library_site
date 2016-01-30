@@ -15,6 +15,9 @@ if(isset($_GET["cat"])){
   } elseif($_GET["cat"] == "suggest"){
     $pageTitle = "Suggest a media item";
     $section = "suggest";
+  } elseif($_GET["cat"] == "company"){
+    $pageTitle = "Company";
+    $section = "company";
   }
 }
 

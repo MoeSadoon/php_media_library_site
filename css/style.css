@@ -524,9 +524,9 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
     line-height: 95px;
     padding: 10px 0 0;
     margin: 0 0 0 50px;
-    width: 100px;
+    width: 84px;
     text-align: left;
-    background: url('../img/nav-sprite.png') no-repeat 0px 105px;
+    background: url('../img/nav-sprite.png') no-repeat 0px 125px;
     white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 1px;

@@ -18,6 +18,7 @@
                 <li class="movies<?php if($section == "movies") {echo " on";} ?>"><a href="catalogue.php?cat=movies">Movies</a></li>
                 <li class="music<?php if($section == "music") {echo " on";} ?>"><a href="catalogue.php?cat=music">Music</a></li>
                 <li class="suggest<?php if($section == "suggest") {echo " on";} ?>"><a href="catalogue.php?cat=suggest">Suggest</a></li>
+								<li class="company<?php if($section == "company") {echo " on";} ?>"><a href="catalogue.php?cat=company">Company</a></li>
             </ul>
 
 		</div>
