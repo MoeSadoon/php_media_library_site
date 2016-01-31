@@ -1,4 +1,11 @@
 <?php
+$catalogue = array(
+              "Design Patterns",
+              "Forrest Gump",
+              "Beethoven"
+              );
+
+
 $pageTitle = "Full Catalogue";
 $section = null;
 
@@ -23,8 +30,22 @@ if(isset($_GET["cat"])){
 
 include("inc/header.php"); ?>
 
-<div class="section page">
-  <h1><?php echo $pageTitle; ?></h1>
+<div class="section catalogue page">
+
+  <div class="wrapper">
+
+    <h1><?php echo $pageTitle; ?></h1>
+
+    <ul>
+      <?php
+      foreach($catalogue as $item){
+        echo "<li> $item </li>";
+      }
+      ?>
+    </ul>
+
+  </div>
+
 </div>
 
 
