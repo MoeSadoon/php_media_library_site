@@ -1,10 +1,5 @@
 <?php
-$catalogue = array(
-              "Design Patterns",
-              "Forrest Gump",
-              "Beethoven"
-              );
-
+include("inc/data.php");
 
 $pageTitle = "Full Catalogue";
 $section = null;
@@ -36,10 +31,14 @@ include("inc/header.php"); ?>
 
     <h1><?php echo $pageTitle; ?></h1>
 
-    <ul>
+    <ul class="items">
       <?php
       foreach($catalogue as $item){
-        echo "<li> $item </li>";
+        echo "<li><a href='#'><img src='"
+            . $item["img"] . "'alt='"
+            . $item["title"] . "' />"
+            . "<p>View Details</p>"
+            ."</a></li>";
       }
       ?>
     </ul>

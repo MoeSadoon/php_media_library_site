@@ -551,16 +551,16 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
 }
 .section.page p {width: 475px; margin-left: auto; margin-right: auto; }
 .section.page .media-details h1 .price {color: #9d9f4e; padding-right: 10px; font-size: 34px;}
-.section.catalog {padding-bottom: 42px;}
-.section.catalog h2 {
+.section.catalogue {padding-bottom: 42px;}
+.section.catalogue h2 {
     font-size: 24px;
     text-align: center;
     line-height: 1.6;
     font-weight: normal;
     padding-top: 20px;
 }
-.section.catalog ul.items {margin: 0 0 -17px 0; padding: 0; width: 997px;}
-.section.catalog ul.items li {
+.section.catalogue ul.items {margin: 0 0 -17px 0; padding: 0; width: 997px;}
+.section.catalogue ul.items li {
     display: inline-block;
     list-style: none;
     width: 204px;
@@ -570,11 +570,11 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
     position: relative;
     left: -17px;
 }
-.section.catalog ul.items li a:hover:after {
+.section.catalogue ul.items li a:hover:after {
     content: '+';
     font-size: 50px; position: absolute; top:35px; right:30px; color: #3888c2; vertical-align: top;
 }
-.section.catalog ul.items li a {
+.section.catalogue ul.items li a {
     background: white;
     display: block;
     padding: 30px 0 10px;
@@ -583,15 +583,15 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
 .details-button {
   color: #888;
 }
-.section.catalog ul.items li a:hover {
+.section.catalogue ul.items li a:hover {
     opacity: 1;
     color: #666;
 }
-.section.catalog ul.items li img {
+.section.catalogue ul.items li img {
     width: 190px;
     border: 6px solid #f0eeed;
 }
-.section.catalog ul.items li p {
+.section.catalogue ul.items li p {
     margin-left: 0;
     margin-right: 0;
     width: auto;
