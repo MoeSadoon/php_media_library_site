@@ -30,13 +30,18 @@ include("inc/header.php"); ?>
 
   <div class="wrapper">
 
-    <h1><?php echo $pageTitle; ?></h1>
+    <h1><?php if($section != null) {
+      echo "<a href='catalogue.php'>Full Catalogue</a> &gt; ";
+    }
+
+     echo $pageTitle; ?></h1>
 
     <ul class="items">
       <?php
-      foreach($catalogue as $id => $item){
-        echo get_item_html($id, $item);
-      }
+      $categories = array_category($catalogue, $section);
+			foreach($categories as $id){
+				echo get_item_html($id, $catalogue[$id]);
+			}
       ?>
     </ul>
 
